@@ -1,0 +1,23 @@
+# API Keys
+.env
+*.env
+
+# Node modules
+*/node_modules/
+node_modules/
+
+# Python
+python-ia/venv/
+__pycache__/
+*.pyc
+
+# Videos
+backend/uploads/*.webm
+backend/uploads/*.mp4
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+*.log

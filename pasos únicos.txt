@@ -1,0 +1,8 @@
+Pasos unicos 
+activar en python-ia 
+"venv\Scripts\activate"
+luego para ejcutar 
+"uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
+para el front
+$env:NODE_OPTIONS="--openssl-legacy-provider"
+luego ejecutar
