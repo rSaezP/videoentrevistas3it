@@ -3,9 +3,11 @@ import assemblyai as aai
 import os
 import tempfile
 import shutil
+from dotenv import load_dotenv
 
-# Configurar AssemblyAI (clave temporal para pruebas)
-aai.settings.api_key = "e271bf4006244959b6ee689bbeec2019" # Clave de prueba
+# Cargar variables de entorno
+load_dotenv()
+aai.settings.api_key = os.getenv("ASSEMBLYAI_API_KEY")
 
 app = FastAPI()
 
